@@ -1,0 +1,85 @@
+
+body {
+    background-color: #090B1A;
+}
+
+.row-main {
+    padding: 15% 9%;
+}
+
+.description-column {
+    padding: 60px;
+    background-color: #1B1938;
+    border-radius: 20px 0 0 20px;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.accent {
+    color: #AA5CDB;
+}
+
+.numbers {
+    color: #FFFFFF;
+}
+
+.image-column {
+    border-radius: 0 20px 20px 0;
+}
+
+.image-product {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.overlay {
+	content: "";
+	background-color: #AA5CDB;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 20px 20px 0;
+	mix-blend-mode: multiply;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    body {
+        text-align: center;
+    }
+
+    .description-column {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .image-column {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .image-product {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .overlay {
+        border-radius: 20px 20px 0 0;
+    }
+    
+  }
